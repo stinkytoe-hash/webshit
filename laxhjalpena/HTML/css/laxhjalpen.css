@@ -5,7 +5,7 @@ html {
 body {
     margin: auto;           /* Centrera sidan */
     max-width: 860px;
-    font-family: sans-serif;
+    font-family: "Helvetica Neue","liberation sans", Calibri,Arial, sans-serif ;
     font-size: 100%;        /* Startvärde */
 }
 
@@ -19,6 +19,7 @@ header {
 
 .startpage h1 {
     font-size: 500%;        /* Massiv rubrik på startsidan */
+    font-family: 'Merienda',cursive;
 }
 
 .tagline {
@@ -36,6 +37,7 @@ header {
     text-align: center;
     box-shadow: inset 0 0 20px #007241;
     border-radius: 50%;
+    font-family: 'Merienda',cursive;
 }
 
 footer {
@@ -71,4 +73,23 @@ footer {
 .menu a:active {
     text-decoration: underline;
     color: #FF4900;
+}
+h1::first-letter {
+color: #00AF64;
+
+}
+.startpage .logo {
+    width: 235px;
+    height: 198px;
+}
+
+.hwrap {
+    display: flex;         /* Gör divven till en flex container*/
+    flex-wrap: wrap;       /* Radbryt om det behövs */
+    align-items: center;    /* Lägg elementen centrerat vertikalt */
+    justify-content: center; /* Och intill varandra centrerat */
+}
+
+hwrap > a {
+    margin-right: 30px;
 }
