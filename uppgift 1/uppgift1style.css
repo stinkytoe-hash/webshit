@@ -1,0 +1,45 @@
+/* CSS-kod till uppgift 1 - centrera en sida med bakgrundsfärg */
+html {
+    background-color:lightslategray;
+}
+body {
+    margin: auto;
+    max-width: 600px;
+    height: 600px;
+    background-color: azure;
+    font-family: sans-serif;
+}
+h1 {
+    color:purple;
+    text-align: center;
+ 
+}
+#billy {
+    color:darkred ;    border-width: 1px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 5px;
+   
+}
+#bob {
+    color: darkgreen;   border-width: 1px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 5px;
+   
+    
+}
+.two {
+    font-size: larger;
+}
+.three {
+    font-size: smaller;
+}
+#bob a {
+    text-decoration: line-through;
+}
+#bob .two a {
+    text-decoration: underline overline;
+   
+    color: orange;
+}
