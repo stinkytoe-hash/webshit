@@ -1,0 +1,31 @@
+header {
+    display: flex; 
+    justify-content: center;
+    background-color: aquamarine;
+    height: 800px;
+}
+
+.main {
+display: flex;
+flex-direction: row;
+background-color: brown;
+height: 750px;
+
+}
+nav {
+    width: 20%;
+
+}
+
+.main > section {
+    justify-content: center;
+    background-color: yellow;
+width: 80%;
+} 
+
+footer {
+    display: flex; 
+    justify-content: center;
+    background-color:red;
+    height: 500px;
+}
